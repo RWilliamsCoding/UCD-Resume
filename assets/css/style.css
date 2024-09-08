@@ -41,6 +41,13 @@
 
 /* -------------- Special Paddings/Margins/Text -------------- */
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 h1,h2,h3,h4 {
     margin: 0;
 }
@@ -175,12 +182,9 @@ header {
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
     padding: 0;
+    width: 100%;
+    margin-top: auto;
 }
 
 .cv-pdf i {
@@ -373,3 +377,14 @@ button[type=submit] {
         max-width: 50%;
 }
 }
+
+/* -------------- Testing Flexbox -------------- */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
